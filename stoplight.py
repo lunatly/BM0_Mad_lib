@@ -19,6 +19,8 @@ label = Label(root, text="CHANGE ME!")
 # Place widgets in window (with pack function!)
 label.pack()
 red_button.pack()
+yellow_button.pack()
+green_button.pack()
 
 
 # Start the GUI event loop
