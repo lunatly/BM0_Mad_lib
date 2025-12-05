@@ -1,6 +1,7 @@
 from tkinter import *
 #need to install on all machines
 from tkmacosx import Button
+import tkinter as tk
 
 # Create the main window
 root = Tk()
@@ -15,7 +16,7 @@ yellow_button = Button(root, text="Yellow", background='Yellow')
 green_button = Button(root, text="Green", background='Green')
 #Add a label
 label = Label(root, text="This is a stoplight")
-
+textArea = tk.Text(root, height=10, width=50, wrap='word')
 # Place widgets in window (with pack function!)
 
 red_button.pack()
