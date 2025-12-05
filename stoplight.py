@@ -23,5 +23,6 @@ red_button.pack()
 yellow_button.pack()
 green_button.pack()
 label.pack()
+textArea.pack()
 # Start the GUI event loop
 root.mainloop()
